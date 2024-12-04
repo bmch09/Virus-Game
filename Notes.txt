@@ -1,0 +1,69 @@
+#Cartas
+
+    Organos:
+        Hueso - Corazón - Estomago - Cerebro - OrganoMulticolor
+        Amarillo - Rojo - Verde - Celeste
+    Virus:
+        Virus1 - Virus2 - Virus3 - Virus4 - VirusMulticolor
+        Amarillo - Rojo - Verde - Celeste
+    Medicina:
+        Medicina1 - Medicina2 - Medicina3 - Medicina4 - MedicinaMulticolor
+        Amarillo - Rojo - Verde - Celeste
+
+    Tratamiento:
+        Tratamiento1 - Tratamiento2 - Tratamiento3 - Tratamiento4 - Tratamiento5
+        transplante  - Ladron Organos - Contagio - Error Medico - Inmunidad
+
+
+
+
+#Descripcion de Tratamientos 
+
+    Transplante
+        Efecto: Intercambia un órgano (sano o infectado) entre dos jugadores.
+        Puedes elegir un órgano propio y cambiarlo por uno del adversario.
+        No importa si los órganos están infectados, inmunizados o sanos.
+        Si el órgano intercambiado tiene virus o medicinas, estos permanecen con el órgano.
+        Ejemplo:
+        Tienes un cerebro sano y tu oponente tiene un corazón infectado. Con la carta Transplante, puedes cambiar tu cerebro por el corazón del oponente.
+    
+    Ladrón de órganos
+        Efecto: Roba un órgano de otro jugador y lo añades a tu tablero.
+        Solo puedes robar un órgano sano o inmunizado.
+        Si robas un órgano inmunizado, conserva su protección en tu tablero.
+        Ejemplo:
+        Tu oponente tiene un estómago inmunizado. Usas Ladrón de órganos y lo colocas en tu tablero, ahora protegido.
+
+    Contagio
+        Efecto: Mueve todos los virus de un órgano infectado a otro órgano compatible.
+        Solo puedes contagiar órganos del mismo color o un órgano multicolor.
+        Si el órgano de destino está inmunizado, el contagio no tiene efecto.
+        Ejemplo:
+        Tienes un corazón infectado con dos virus rojos. Con Contagio, puedes mover esos virus a otro corazón o a un órgano multicolor.
+
+    Error médico
+        Efecto: Retira un órgano del tablero, sea tuyo o de otro jugador.
+        Puedes usarlo contra tus propios órganos si están muy infectados.
+        También puedes usarlo para eliminar un órgano sano o inmunizado de otro jugador.
+        Ejemplo:
+        Tu oponente está a punto de ganar con un cerebro sano. Usas Error médico para eliminar su cerebro del tablero.
+
+    Inmunidad
+        Efecto: Protege un órgano contra cualquier ataque, incluido el Error médico.
+        Se coloca sobre un órgano y permanece activo mientras no sea eliminado.
+        El órgano inmunizado no puede ser infectado, robado, o retirado con Error médico.
+        Ejemplo:
+        Tienes un hueso sano. Usas Inmunidad para protegerlo de futuros ataques. Ahora, está seguro de virus o cualquier otra acción. 
+
+
+
+#Cambiar Todas las Cartas
+
+    Al seleccionar el boton se cambia todo el maso
+
+#Agarrar carta aleatoria
+    
+    Al presionar el boton se agrega cualquier carta del juego
+
+
+#

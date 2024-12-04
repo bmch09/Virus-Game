@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.tablero{
+    max-width: 1300px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem;
+    border: .1rem solid #333;
+    padding: 2rem;
+}
+
+.carta{
+    border: .1rem solid #333;
+    border-radius: .5rem;
+    width: 40%;
+    height: 60%;
+}
+
+.tablero_div{
+    height: 300px;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem ;
+}
+
+
+
+.mazo{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+
+.mazo>.carta{
+    background-color: rgb(163, 108, 202);
+
+}
+
+.mesa{
+    display: flex;
+    gap: .2rem;
+    width: 60%;
+    height: 100%;
+}
+.mesa>.carta{
+    background-color: rgb(108, 202, 146);
+    
+}
+
+.contenedor_opciones{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    height: 100%;
+}
+
+.cartaAleatoria{
+    width: 60%;
+    height: 40%;
+    background-color: rgb(242, 155, 69);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
